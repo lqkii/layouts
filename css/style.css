@@ -1,0 +1,368 @@
+body {
+    margin: 0px;
+    background-color: rgb(56,56,56);
+    z-index: -1;
+    width: 100%;
+}
+
+.first-container {
+    background-color: rgb(56,56,56);
+    height: 117.7vh;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo {
+    background-color: rgb(244,244,243);
+    height: 9vh;
+    width: 9vh;
+    border-radius: 100%;
+    position: relative;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 66px;
+    padding-top: 0;
+    margin-top: 4.8vh
+}
+
+nav {
+    display: flex;
+}
+
+.team_button {
+    background-color: rgb(244,244,243);
+    width: 50px;
+    height: 5vh;
+    margin-top: 1.5vh;
+    margin-left: 2.5vh;
+}
+
+.nav_button {
+    background-color: rgb(244,244,243);
+    width: 50px;
+    height: 5vh;
+    margin-top: 1.5vh;
+    margin-left: 2.5vh;
+}
+
+.nav_button:last-child {
+    width: 115px;
+    height: 7.2vh;
+    margin-top: 0;
+    border-radius: 60px 60px 60px 60px;
+    background-color: transparent;
+    border: 2px solid rgb(244,244,243);
+    margin-right: -15px;
+}
+
+.hero_text {
+    background-color: rgb(244,244,243);
+    width: 64vw;
+    height: 36vh;
+    z-index: 2;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 27vw;
+}
+
+.cta {
+    position: relative;
+    width: 264px;
+    height: 75px;
+    margin-top: 0;
+    border-radius: 60px 60px 60px 60px;
+    background-color: transparent;
+    border: 2px solid rgb(244,244,243);
+    z-index: 2; 
+    margin-left: 26.7vw;
+    top: 439px;
+}
+
+.second-container {
+    background-color: rgb(244,244,243);
+    height: 50.3vh;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+}
+
+.question {
+    width: 350px;
+    height: 50px;
+    background-color: rgb(56,56,56);
+    position: relative;
+    top: 45px;
+    left: 15vw;
+}
+
+.paragraph1 {
+    width: 500px;
+    height: 244px;
+    background-color: rgb(56,56,56);
+    position: relative;
+    margin-top: 45px;
+    margin-left: 29vw;
+    flex-shrink: 1;
+    margin-right: 4vw;
+}
+
+.third-container {
+    background-color: rgb(56,56,56);
+    height: 128.8vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.line {
+    background-color: rgb(150,150,149);
+    height: 1px;
+    width: 105px;
+    z-index: 1;
+    position: relative;
+    top: 103px;
+    margin-left: 28.7vw;
+}
+
+#line2 {
+    top: 555px;
+}
+
+.text_slide3 {
+    background-color: rgb(244,244,243);
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 93px;
+    margin-left: 45vw;
+}
+
+#text2_slide3 {
+    top: 525px;
+    width: 90px;
+}
+
+.paragraph2 {
+    width: 34%;
+    height: 110px;
+    background-color: rgb(244,244,243);
+    position: relative;
+    top: 53px;
+    margin-left: 56vw;
+}
+
+.paragraph2:nth-child(2n) {
+    margin-top: 30px;
+    height: 200px;
+}
+
+.paragraph2:last-child {
+    top: 165px;
+    height: 240px;
+    width: 31%;
+}
+
+.fourth-container {
+    background-color: rgb(244,244,243);
+    height: 63.8vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.paragraph3 {
+    width: 66vw;
+    height: 260px;
+    background-color: black;
+    position: relative;
+    top: 56px;
+    margin-left: 16%;
+}
+
+.paragraph3:last-child {
+    width: 36vw;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 56px;
+    margin-left: 16%;
+    margin-top: 40px;
+}
+
+.fifth-container {
+    background-color: rgb(56,56,56);
+    height: 473.4vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.img-text {
+    height: 281px;
+    position: relative;
+    top: 139px;
+}
+
+.img {
+    background-color: rgb(244,244,243);
+    width: 38.6vw;
+    height: 278px;
+    position: relative;
+    margin-left: 15.4vw;
+}
+
+.text-container {
+    background-color: transparent;
+    width: 30vw;
+    height: 281px;
+    position: relative;
+    top: -278px;
+    left: 56vw;
+    margin-left: 8px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-title {
+    background-color: rgb(244,244,243);
+    width: 30vw;
+    height: 46px;
+    position: relative;
+    z-index: 1;
+}
+
+.work-desc {
+    background-color: rgb(244,244,243);
+    width: 30vw;
+    height: 160px;
+    position: relative;
+    z-index: 1;
+}
+
+.work-divider {
+    background-color: rgb(150,150,149);
+    width: 30vw;
+    height: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-text:not(:first-child) {
+    margin-top: 112px;
+}
+
+.sixth-container {
+    background-color: rgb(244,244,243);
+    height: 28.1vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.element-container {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph4 {
+    width: 43vw;
+    height: 83px;
+    background-color: rgb(56,56,56);
+    position: relative;
+    margin-left: 3.1vw;
+    top: 4px;
+}
+
+.email {
+    width: 22vw;
+    height: 67px;
+    background-color: white;
+    position: relative;
+    margin-left: 4.7vw;
+    border: 1px solid rgb(224,224,224);
+}
+
+.button {
+    width: 125px;
+    height: 64px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: transparent;
+    border: 2px solid rgb(56,56,56);
+    margin-left: 7px;
+    position: relative;
+    top: 1px;
+}
+
+.seventh-container {
+    background-color: rgb(56,56,56);
+    height: 68.9vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    background-color: transparent;
+    position: relative;
+    top: 66px;
+    display: flex;
+    flex-direction: column;
+    height: 334px;
+    justify-content: space-between;
+    margin-left: 8vw;
+    width: 43vw;
+}
+
+.paragraph5 {
+    width: 43vw;
+    height: 130px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.logos {
+    width: 25.4vw;
+    height: 106px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.smile {
+    width: 28vw;
+    height: 20px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.right-side {
+    background-color: transparent;
+    position: relative;
+    top: 66px;
+    margin-right: 8vw;
+    height: 334px;
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.socials {
+    background-color: rgb(249,249,249);
+    width: 7vw;
+    height: 210px;
+    margin-top: 16px;
+}
+
+.privacy {
+    background-color: rgb(249,249,249);
+    width: 18.2vw;
+    height: 60px;
+}

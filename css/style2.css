@@ -1,0 +1,293 @@
+body {
+    margin: 0px;
+    background-color: rgb(56,56,56);
+    z-index: -1;
+    width: 100%;
+}
+
+.first-container {
+    background-color: rgb(56,56,56);
+    height: 70.3vh;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo {
+    background-color: rgb(244,244,243);
+    height: 9vh;
+    width: 9vh;
+    border-radius: 100%;
+    position: relative;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 66px;
+    padding-top: 0;
+    margin-top: 4.8vh
+}
+
+nav {
+    display: flex;
+}
+
+.nav_button {
+    background-color: rgb(244,244,243);
+    width: 50px;
+    height: 5vh;
+    margin-top: 1.5vh;
+    margin-left: 2.5vh;
+}
+
+.nav_button:last-child {
+    width: 115px;
+    height: 7.2vh;
+    margin-top: 0;
+    border-radius: 60px 60px 60px 60px;
+    background-color: transparent;
+    border: 2px solid rgb(244,244,243);
+    margin-right: -15px;
+}
+
+
+.main_text {
+    background: transparent;
+    margin-left: 4.4vw;
+    height: 210px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.short_sentence {
+    background-color: rgb(244,244,243);
+    width: 15.6vw;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.desc {
+    position: relative;
+    width: 62vw;
+    height: 150px;
+    margin-top: 0;
+    background-color: rgb(244,244,243);
+    border: 2px solid rgb(244,244,243);
+    z-index: 2; 
+}
+
+.second-container {
+    background-color: white;
+    height: 259.7vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.img-text-container {
+    padding-top: 12.3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-text {
+    width: 25.1vw;
+    height: 68vh;
+}
+
+.img {
+    background-color: rgb(56,56,56);
+    height: 21.4vw;
+    width: 25.1vw;
+}
+
+.name {
+    background-color: rgb(56,56,56);
+    height: 4vh;
+    width: 10vw;
+    margin-top: 1vw;
+}
+
+.text {
+    background-color: rgb(56,56,56);
+    height: 21.1vh;
+    width: 25.1vw;
+    margin-top: 1vw;
+}
+
+.img-text-container:not(:first-child) {
+    margin-top: 1vw;
+}
+
+.third-container {
+    background-color: rgb(56,56,56);
+    height: 188.4vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.text-container {
+    background-color: rgb(169, 169, 169);
+    height: 100%;
+    padding-top: 46px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.heading {
+    background-color: white;
+    height: 32px;
+    width: 19vw;
+}
+
+.desc2 {
+    background-color: white;
+    height: 32px;
+    width: 100%;
+    margin-top: 6vh;
+}
+
+.desc3 {
+    height: 464px;
+    width: 100%;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.desc3-container {
+    height: 202px;
+    width: 27.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc3-main {
+    background-color: white;
+    height: 32px;
+    width: 17vw;
+}
+
+.desc3-text {
+    background-color: white;
+    height: 140px;
+    width: 27.6vw;
+}
+
+.images {
+    width: 100%;
+    height: 511px;
+    margin-top: 11.4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    background-color: white;
+    height: 376px;
+    width: 44.04vw;
+}
+
+.image:last-child {
+    background-color: white;
+    height: 376px;
+    width: 44.04vw;
+    align-self: flex-end;
+}
+
+.fourth-container {
+    background-color: rgb(244,244,243);
+    height: 45vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.get-in-touch {
+    background-color: rgb(0,0,0);
+    width: 68vw;
+    height: 170px;
+    position: relative;
+    left: 4vw;
+    top: 70px;
+}
+
+.seventh-container {
+    background-color: rgb(56,56,56);
+    height: 68.9vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    background-color: transparent;
+    position: relative;
+    top: 66px;
+    display: flex;
+    flex-direction: column;
+    height: 334px;
+    justify-content: space-between;
+    margin-left: 8vw;
+    width: 43vw;
+}
+
+.paragraph5 {
+    width: 43vw;
+    height: 130px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.logos {
+    width: 25.4vw;
+    height: 106px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.smile {
+    width: 28vw;
+    height: 20px;
+    background-color: rgb(249,249,249);
+    position: relative;
+}
+
+.right-side {
+    background-color: transparent;
+    position: relative;
+    top: 66px;
+    margin-right: 8vw;
+    height: 334px;
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.socials {
+    background-color: rgb(249,249,249);
+    width: 7vw;
+    height: 210px;
+    margin-top: 16px;
+}
+
+.privacy {
+    background-color: rgb(249,249,249);
+    width: 18.2vw;
+    height: 60px;
+}

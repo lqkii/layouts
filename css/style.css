@@ -539,7 +539,7 @@ nav {
 
     .fifth-container {
         background-color: rgb(56,56,56);
-        height: 473.4vh;
+        height: 754.7vh;
         width: 100%;
         z-index: -1;
     }
@@ -547,25 +547,25 @@ nav {
     .img-text {
         height: 281px;
         position: relative;
-        top: 139px;
+        top: 76px;
     }
     
     .img {
         background-color: rgb(244,244,243);
-        width: 38.6vw;
-        height: 278px;
+        width:86vw;
+        height: 371px;
         position: relative;
-        margin-left: 15.4vw;
+        margin-left: 6vw;
     }
     
     .text-container {
-        background-color: transparent;
         width: 30vw;
-        height: 281px;
+        height: 194px;
         position: relative;
-        top: -278px;
-        left: 56vw;
+        top: 0px;
+        left: 5vw;
         margin-left: 8px;
+        margin-top: 40px;
         z-index: 0;
         display: flex;
         flex-direction: column;
@@ -573,30 +573,146 @@ nav {
     }
     
     .work-title {
-        background-color: rgb(244,244,243);
-        width: 30vw;
-        height: 46px;
+        background-color: rgb(213, 213, 213);
+        width: 19vw;
+        height: 32px;
         position: relative;
         z-index: 1;
     }
     
     .work-desc {
-        background-color: rgb(244,244,243);
-        width: 30vw;
-        height: 160px;
+        background-color: rgb(213, 213, 213);
+        width: 86vw;
+        height: 100px;
         position: relative;
         z-index: 1;
     }
     
     .work-divider {
         background-color: rgb(150,150,149);
-        width: 30vw;
+        width: 86vw;
         height: 1px;
         position: relative;
         z-index: 1;
     }
     
     .img-text:not(:first-child) {
-        margin-top: 112px;
+        margin-top: 367px;
+    }
+
+    .sixth-container {
+        background-color: rgb(244,244,243);
+        height: 35.7vh;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .element-container {
+        padding-top: 40px;
+        padding-left: 6vw;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .paragraph4 {
+        width: 86vw;
+        height: 46px;
+        background-color: rgb(56,56,56);
+        position: relative;
+        top: 4px;
+        margin: 0px;
+    }
+    
+    .email {
+        width: 36.7vw;
+        height: 64px;
+        background-color: white;
+        position: relative;
+        border: 1px solid rgb(224,224,224);
+        margin-top: 51px;
+        margin-left: 0px;
+    }
+    
+    .button {
+        width: 122px;
+        height: 64px;
+        border-radius: 60px 60px 60px 60px;
+        background-color: transparent;
+        border: 2px solid rgb(56,56,56);
+        position: relative;
+        margin-top: 48px;
+    }
+
+    .seventh-container {
+        background-color: rgb(56,56,56);
+        height: 85.1vh;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .content {
+        width: 100%;
+        display: flex;
+    }
+    
+    .left-side {
+        background-color: grey;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        height: 290px;
+        margin-left: 10vw;
+        width: 200vw;
+    }
+    
+    .paragraph5 {
+        width: 69vw;
+        height: 110px;
+        background-color: rgb(249,249,249);
+        position: relative;
+    }
+    
+    .logos {
+        width: 32vw;
+        height: 80px;
+        background-color: rgb(249,249,249);
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .smile {
+        width: 48vw;
+        height: 20px;
+        background-color: rgb(249,249,249);
+        position: relative;
+    }
+    
+    .right-side {
+        background-color: transparent;
+        position: relative;
+        top: 400px;
+        left: -68.9vw;
+        height: 136px;
+        width: 43vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .socials {
+        background-color: rgb(249,249,249);
+        width: 210px;
+        height: 3.4vw;
+        margin-top: 24px;
+    }
+    
+    .privacy {
+        background-color: rgb(249,249,249);
+        width: 29vw;
+        height: 40px;
     }
 }
